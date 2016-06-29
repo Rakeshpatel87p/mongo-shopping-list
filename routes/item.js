@@ -50,7 +50,7 @@ router.delete('/items/:id', function(req, res) {
     var _id = req.params.id;
     Item.remove(_id,
         function(item) {
-            res.status(201).json(item);
+            res.status(201).json({message: 'successfully deleted', status: 'ok'});
         },
         function(err) {
             res.status(400).json(err);
