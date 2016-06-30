@@ -1,7 +1,7 @@
 
 {
 	"production": {
-		"url": "mongodb://localhost/shopping-list"
+		"url": "mongodb://Rakeshpatel87p:printer1@ds053658.mlab.com:53658/mongo-shopping-list"
 	},
 
 	"test": {
