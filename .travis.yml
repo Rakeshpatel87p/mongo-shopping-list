@@ -8,3 +8,10 @@ addons:
     - mongodb-3.2-precise
     packages:
     - mongodb-org-server
+deploy:
+  provider: heroku
+  api_key:
+    secure: to3+x1hw/9v1RRaIMIBGhM+TBilIpPcRNZtgLYBHi6pDvIj0s4HB00NXz0CnjySo7egA8JMEN1W0fy5SOj17Zr1MaPUmTwy8rroSidmKC8Nme6ZOAdP9OzLGtOkBDbbK7BvL4/UJX/l4d5RNYClQXFy4pPZi94HHXcfED+5ffKwZEK6uH80+wRjmrdYlvEZSDReyxBTjZRQOt/Ui0PMtPqermsnZYSlUmu60YmKBw2S2vf+loJFwpp0iBcTpBabNyLBRTM0xxt9eETkmD1h4gBo6SOMAJCxv4CWh+Bc979K030el/END7XeFF2hGLtVnynxnjPFsun6REUopuj1Bvn6qnGpo+MndhXdWVMAZlHMrOeKpTmzKnFkX1E6kuLfje/v8JYxy/Y2Sjwen3MY5mGlCP3rsK2yUgnWfiREBFI7HKkFJTIvtVrhRAmkkXiIXFsRKIBvaSbKdUjpg84Z66kgsi+6PlenUoeStngFTYJZnIFTPsZpi3pmDp9ZcRBgubqiDXyDjP4S6WtVDgSuABtAtOyHXD3jqwcZ0mfHRJdCBEXNKi8lYJPuanGHlIW2DaUhFfthE9HN1Na9I0rCA2eIY2F25UPt2m5AeP+hZN9H6im3XQE2DlCIoyOJqpsAoFraZESKBwRlyMvKvY9OnflJyadP02TLmclaxWDSFGCw=
+  app: arcane-tundra-19810
+  on:
+    repo: Rakeshpatel87p/mongo-shopping-list
