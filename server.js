@@ -4,11 +4,6 @@ var bodyParser = require('body-parser');
 var itemRoutes = require('./routes/item');
 var app = express();
 
-// New stuff for npm registry
-'use strict'; 
-var Registry = require('npm-registry');
-var npm = new Registry({ options });
-
 app.use(bodyParser.json());
 app.use(express.static('public'));
 
